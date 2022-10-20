@@ -6,10 +6,15 @@
 /* FUnction */
 function calculateArea() {
   /* Input */
-  const length = parseFloat(document.getElementById("lengthOfParallelogram").value)
-  const width = parseFloat(document.getElementById("widthOfParallelogram").value)
+  const length = parseFloat(
+    document.getElementById("lengthOfParallelogram").value
+  )
+  const width = parseFloat(
+    document.getElementById("widthOfParallelogram").value
+  )
   /* Proccess */
-  const area = length * width 
+  const area = length * width
   /* Output */
-  document.getElementById("area").innerHTML = "The area of your parallelogram is: " + area + " cm"
+  document.getElementById("area").innerHTML =
+    "The area of your parallelogram is: " + area + " cm"
 }
