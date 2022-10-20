@@ -19,3 +19,7 @@
 body {
   background-color: pink;
 }
+
+img {
+  float: right;
+}
