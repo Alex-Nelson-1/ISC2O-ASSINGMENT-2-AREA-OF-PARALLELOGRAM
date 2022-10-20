@@ -16,5 +16,5 @@ function calculateArea() {
   const area = length * width
   /* Output */
   document.getElementById("area").innerHTML =
-    "The area of your parallelogram is: " + area + " cm"
+    "The area of your parallelogram is: " + area + " cm²"
 }
